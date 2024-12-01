@@ -8,7 +8,7 @@ public class Main {
         User user2 = new User("Rocio", "Soronellas", "rs@gmail.com");
 
         System.out.println(user1.getName());
-        user1.setName("Andrea");
-        System.out.println(user2.getName());
+        user1.setName("Leo Messi");
+        System.out.println(user1.getName());
     }
 }
