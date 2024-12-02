@@ -16,11 +16,17 @@ public class User {
         return "Hi, i'm " + this.name + " and i play for " + this.club;
 
     }
+
+
     public String getName() {
         return this.name;
     }
 
     public void setName(String newName) {
         this.name = newName;
+
+    public  void setName(String newName) {
+        this.name = newName;
+
     }
 }
