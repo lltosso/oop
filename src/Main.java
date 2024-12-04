@@ -1,22 +1,22 @@
 
 
-import User.User;
+import User.footballers;
 
 public class Main {
     public static void main(String[] args) {
-        User user1 = new User("Leo", "Messi", "lm@gmail.com", "Miami");
-        User user2 = new User("Xavi", "Hernandez", "xh@gmail.com", "Barcelona");
-        User user3 = new User("Andres", "Iniesta", "ai@gmail.com", "Barcelona");
-        User user4 = new User("Erling", "Haaland", "eh@gmail.com", "Manchester City");
-        User user5 = new User("Cristiano", "Ronaldo", "cr7@gmail.com", "Al Nassr");
-        User user6 = new User("Kilyan", "Mbappe", "km@gmail.com","Madrid");
-        User user7 = new User("Carles", "Puyol", "cp@gmail.com", "Barcelona");
-        User user8 = new User("James", "Rodriguez", "jr@gmail.com", "Rayo Vallecano");
+        footballers player1 = new footballers("Leo", "Messi", "lm@gmail.com", "Miami");
+        footballers player2 = new footballers("Xavi", "Hernandez", "xh@gmail.com", "Barcelona");
+        footballers player3 = new footballers("Andres", "Iniesta", "ai@gmail.com", "Barcelona");
+        footballers player4 = new footballers("Erling", "Haaland", "eh@gmail.com", "Manchester City");
+        footballers player5 = new footballers("Cristiano", "Ronaldo", "cr7@gmail.com", "Al Nassr");
+        footballers player6 = new footballers("Kilyan", "Mbappe", "km@gmail.com","Madrid");
+        footballers player7 = new footballers("Carles", "Puyol", "cp@gmail.com", "Barcelona");
+        footballers player8 = new footballers("James", "Rodriguez", "jr@gmail.com", "Rayo Vallecano");
 
 
 
 
-        user1.setName("Leo Messi");
-        System.out.println(user1.getName());
+        player1.setName("Leo Messi");
+        System.out.println(player1.getName());
     }
 }

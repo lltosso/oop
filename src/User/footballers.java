@@ -1,12 +1,12 @@
 package User;
 
-public class User {
+public class footballers {
     public String name;
     public String surname;
     public String email;
     public String club;
 
-    public User (String name, String surname, String email, String club) {
+    public footballers(String name, String surname, String email, String club) {
         this.name = name;
         this.surname = surname;
         this.email = email;

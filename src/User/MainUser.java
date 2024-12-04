@@ -2,9 +2,9 @@ package User;
 
 public class MainUser {
     public static void Mainuser(String[] args) {
-        User user1 = new User("Leo", "Messi", "lm@gmail.com", "Miami");
-        User user2 = new User("Xavi", "Hernandez", "xh@gmail.com", "Barcelona");
+        footballers player1 = new footballers("Leo", "Messi", "lm@gmail.com", "Miami");
+        footballers player2 = new footballers("Xavi", "Hernandez", "xh@gmail.com", "Barcelona");
 
-        System.out.println(user1.club);
+        System.out.println(player1.club);
     }
 }
