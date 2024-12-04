@@ -25,8 +25,5 @@ public class User {
     public void setName(String newName) {
         this.name = newName;
 
-    public  void setName(String newName) {
-        this.name = newName;
-
     }
 }
