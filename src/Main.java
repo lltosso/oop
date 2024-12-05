@@ -1,5 +1,6 @@
 
 
+import User.football.Positions;
 import User.footballers;
 
 public class Main {
@@ -16,7 +17,10 @@ public class Main {
 
 
 
-        player1.setName("Leo Messi");
-        System.out.println(player1.getName());
+        /*player1.setName("Leo Messi");
+        System.out.println(player1.getName());*/
+
+        Positions striker = new Positions("red", "Leo", "37");
+        System.out.println(striker.color);
     }
 }
